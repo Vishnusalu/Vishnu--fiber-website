@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Premium Fiber Internet</title>
@@ -11,11 +12,11 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#f5f5f5;
+background:#fff;
 color:#222;
 }
 
@@ -29,6 +30,9 @@ padding:18px 30px;
 display:flex;
 justify-content:space-between;
 align-items:center;
+position:sticky;
+top:0;
+z-index:100;
 }
 
 .logo{
@@ -37,967 +41,150 @@ font-weight:bold;
 }
 
 
-.btn{
+.nav-btn{
 background:white;
 color:#e60000;
-padding:12px 25px;
+padding:12px 22px;
 border-radius:30px;
 text-decoration:none;
 font-weight:bold;
 }
 
 
-
 /* Hero */
 
 .hero{
-height:500px;
-background:linear-gradient(120deg,#000,#e60000);
-color:white;
+
+height:600px;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:20px;
-}
-
-
-.hero h1{
-font-size:45px;
-}
-
-
-.hero p{
-font-size:20px;
-margin:20px;
-}
-
-
-.fiber{
-font-size:80px;
-animation:move 2s infinite alternate;
-}
-
-
-@keyframes move{
-
-from{
-transform:translateY(0);
-}
-
-to{
-transform:translateY(-25px);
-}
-
-}
-
-
-
-/* Plans */
-
-.section{
-padding:50px 20px;
-text-align:center;
-}
-
-
-.plans{
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-}
-
-
-.card{
-background:white;
-width:280px;
-padding:30px;
-border-radius:20px;
-box-shadow:0 5px 20px #ccc;
-transition:.3s;
-}
-
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-
-.card h2{
-color:#e60000;
-font-size:35px;
-}
-
-
-.card button{
-
-background:#e60000;
 color:white;
-border:none;
-padding:12px 25px;
-border-radius:25px;
-
-}
-
-
-
-/* Video */
-
-.video iframe{
-
-width:90%;
-height:350px;
-border-radius:20px;
-
-}
-
-
-
-/* Features */
-
-
-.features{
-
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
-
-}
-
-
-.box{
-
-background:white;
-padding:25px;
-border-radius:15px;
-width:220px;
-box-shadow:0 5px 15px #ddd;
-
-}
-
-
-
-/* Footer */
-
-
-footer{
-
-background:#111;
-color:white;
-text-align:center;
 padding:20px;
 
-}
-
-
-
-</style>
-
-</head>
-
-
-<body>
-
-
-<header>
-
-<div class="logo">
-Airtel Fiber
-</div>
-
-<a class="btn" href="#">
-Get Connection
-</a>
-
-</header>
-
-
-
-<section class="hero">
-
-<div class="fiber">
-📡
-</div>
-
-
-<h1>
-Super Fast Fiber Internet
-</h1>
-
-
-<p>
-High Speed • Unlimited Data • Smart WiFi
-</p>
-
-
-<a class="btn" href="#">
-Book Now
-</a>
-
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Premium Plans
-</h1>
-
-<br>
-
-
-<div class="plans">
-
-
-<div class="card">
-
-<h2>₹499</h2>
-
-<h3>40 Mbps</h3>
-
-<p>
-Unlimited Data<br>
-WiFi Router<br>
-24×7 Support
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-
-<div class="card">
-
-<h2>₹799</h2>
-
-<h3>100 Mbps</h3>
-
-<p>
-High Speed Internet<br>
-OTT Benefits<br>
-Smart WiFi
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h2>₹999</h2>
-
-<h3>200 Mbps</h3>
-
-<p>
-Gaming Speed<br>
-Entertainment<br>
-Premium Support
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Experience Fiber Speed
-</h1>
-
-<br>
-
-<iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ">
-</iframe>
-
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Why Choose Fiber?
-</h1>
-
-<br>
-
-
-<div class="features">
-
-
-<div class="box">
-⚡<br>
-Fast Speed
-</div>
-
-
-<div class="box">
-📶<br>
-Stable Connection
-</div>
-
-
-<div class="box">
-🎬<br>
-Entertainment
-</div>
-
-
-<div class="box">
-🛠️<br>
-24/7 Support
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-<footer>
-
-Premium Fiber Internet Demo
-
-</footer>
-
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Airtel Fiber Premium</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#fff;
-    color:#222;
-}
-
-header{
-    background:#e60000;
-    color:white;
-    padding:20px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-}
-
-button{
-    background:#e60000;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:25px;
-    cursor:pointer;
-}
-
-.hero{
-    background:linear-gradient(120deg,#111,#e60000);
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-.hero h1{
-    font-size:40px;
-}
-
-.animation{
-    font-size:60px;
-    animation:move 2s infinite alternate;
-}
-
-@keyframes move{
-    from{transform:translateY(0);}
-    to{transform:translateY(-20px);}
-}
-
-.section{
-    padding:40px 20px;
-    text-align:center;
-}
-
-.cards{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-.card{
-    width:260px;
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 5px 20px #ccc;
-    background:white;
-}
-
-.card h2{
-    color:#e60000;
-}
-
-.video iframe{
-    width:90%;
-    height:350px;
-    border-radius:15px;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-</style>
-
-</head>
-
-<body>
-
-<header>
-<div class="logo">Airtel Fiber</div>
-<button>Get Connection</button>
-</header>
-
-
-<section class="hero">
-
-<div class="animation">📡</div>
-
-<h1>High Speed Fiber Internet</h1>
-
-<p>Fast<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Premium Fiber Internet</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:#f5f5f5;
-color:#222;
-}
-
-
-/* Header */
-
-header{
-background:#e60000;
-color:white;
-padding:18px 30px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-size:28px;
-font-weight:bold;
-}
-
-
-.btn{
-background:white;
-color:#e60000;
-padding:12px 25px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
-}
-
-
-
-/* Hero */
-
-.hero{
-height:500px;
-background:linear-gradient(120deg,#000,#e60000);
-color:white;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-
-.hero h1{
-font-size:45px;
-}
-
-
-.hero p{
-font-size:20px;
-margin:20px;
-}
-
-
-.fiber{
-font-size:80px;
-animation:move 2s infinite alternate;
-}
-
-
-@keyframes move{
-
-from{
-transform:translateY(0);
-}
-
-to{
-transform:translateY(-25px);
-}
-
-}
-
-
-
-/* Plans */
-
-.section{
-padding:50px 20px;
-text-align:center;
-}
-
-
-.plans{
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-}
-
-
-.card{
-background:white;
-width:280px;
-padding:30px;
-border-radius:20px;
-box-shadow:0 5px 20px #ccc;
-transition:.3s;
-}
-
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-
-.card h2{
-color:#e60000;
-font-size:35px;
-}
-
-
-.card button{
-
-background:#e60000;
-color:white;
-border:none;
-padding:12px 25px;
-border-radius:25px;
-
-}
-
-
-
-/* Video */
-
-.video iframe{
-
-width:90%;
-height:350px;
-border-radius:20px;
-
-}
-
-
-
-/* Features */
-
-
-.features{
-
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
-
-}
-
-
-.box{
-
-background:white;
-padding:25px;
-border-radius:15px;
-width:220px;
-box-shadow:0 5px 15px #ddd;
-
-}
-
-
-
-/* Footer */
-
-
-footer{
-
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-
-}
-
-
-
-</style>
-
-</head>
-
-
-<body>
-
-
-<header>
-
-<div class="logo">
-Airtel Fiber
-</div>
-
-<a class="btn" href="#">
-Get Connection
-</a>
-
-</header>
-
-
-
-<section class="hero">
-
-<div class="fiber">
-📡
-</div>
-
-
-<h1>
-Super Fast Fiber Internet
-</h1>
-
-
-<p>
-High Speed • Unlimited Data • Smart WiFi
-</p>
-
-
-<a class="btn" href="#">
-Book Now
-</a>
-
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Premium Plans
-</h1>
-
-<br>
-
-
-<div class="plans">
-
-
-<div class="card">
-
-<h2>₹499</h2>
-
-<h3>40 Mbps</h3>
-
-<p>
-Unlimited Data<br>
-WiFi Router<br>
-24×7 Support
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-
-<div class="card">
-
-<h2>₹799</h2>
-
-<h3>100 Mbps</h3>
-
-<p>
-High Speed Internet<br>
-OTT Benefits<br>
-Smart WiFi
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h2>₹999</h2>
-
-<h3>200 Mbps</h3>
-
-<p>
-Gaming Speed<br>
-Entertainment<br>
-Premium Support
-</p>
-
-<br>
-
-<button>
-Choose Plan
-</button>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Experience Fiber Speed
-</h1>
-
-<br>
-
-<iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ">
-</iframe>
-
-
-</section>
-
-
-
-
-<section class="section">
-
-<h1>
-Why Choose Fiber?
-</h1>
-
-<br>
-
-
-<div class="features">
-
-
-<div class="box">
-⚡<br>
-Fast Speed
-</div>
-
-
-<div class="box">
-📶<br>
-Stable Connection
-</div>
-
-
-<div class="box">
-🎬<br>
-Entertainment
-</div>
-
-
-<div class="box">
-🛠️<br>
-24/7 Support
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-<footer>
-
-Premium Fiber Internet Demo
-
-</footer>
-
-
-</body>
-</html><style>
-.hero{
 background:
-linear-gradient(rgba(0,0,0,0.6),rgba(230,0,0,0.6)),
-url("https://images.unsplash.com/photo-1544197150-b99a580bb7a8")
+linear-gradient(rgba(0,0,0,.5),rgba(230,0,0,.5)),
+url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31")
 center/cover;
-}
-</style> 
-<section class="section">
 
-<h1>Premium Fiber Plans</h1>
-
-<div class="slider">
-
-<div class="slide-track">
-
-
-<div class="plan-card">
-<h2>₹499</h2>
-<h3>40 Mbps</h3>
-<p>
-Unlimited Data<br>
-WiFi Router<br>
-24×7 Support
-</p>
-<button>Choose Plan</button>
-</div>
-
-
-<div class="plan-card">
-<h2>₹799</h2>
-<h3>100 Mbps</h3>
-<p>
-High Speed Internet<br>
-OTT Benefits<br>
-Smart WiFi
-</p>
-<button>Choose Plan</button>
-</div>
-
-
-<div class="plan-card">
-<h2>₹999</h2>
-<h3>200 Mbps</h3>
-<p>
-Gaming Speed<br>
-Entertainment<br>
-Premium Support
-</p>
-<button>Choose Plan</button>
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<style>
-
-.slider{
-
-overflow:hidden;
-width:100%;
 }
 
 
-.slide-track{
-
-display:flex;
-gap:25px;
-animation:slide 10s infinite;
+.hero h1{
+font-size:45px;
 }
 
 
-.plan-card{
+.hero p{
+font-size:20px;
+margin:20px;
+}
 
-min-width:280px;
-background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 5px 20px #ccc;
+
+.main-btn{
+
+background:#e60000;
+color:white;
+padding:15px 35px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+
+.fiber-icon{
+
+font-size:70px;
+animation:float 2s infinite alternate;
+
+}
+
+
+@keyframes float{
+
+from{
+transform:translateY(0);
+}
+
+to{
+transform:translateY(-25px);
+}
+
+}
+
+
+/* Sections */
+
+
+.section{
+
+padding:60px 20px;
 text-align:center;
 
 }
 
 
-.plan-card h2{
+.section h1{
+
+font-size:35px;
+margin-bottom:15px;
+
+}
+
+
+/* Features */
+
+
+.features{
+
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+
+.feature-card{
+
+background:white;
+padding:25px;
+width:220px;
+border-radius:20px;
+box-shadow:0 5px 20px #ddd;
+
+}
+
+
+
+/* Plans */
+
+
+.plans{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+
+.plan{
+
+background:white;
+width:280px;
+padding:30px;
+border-radius:25px;
+box-shadow:0 5px 20px #ddd;
+
+}
+
+
+.plan h2{
 
 color:#e60000;
 font-size:35px;
@@ -1005,183 +192,260 @@ font-size:35px;
 }
 
 
-.plan-card button{
+.plan button{
 
 background:#e60000;
 color:white;
-border:none;
+border:0;
 padding:12px 25px;
 border-radius:25px;
 
 }
 
 
-
-@keyframes slide{
-
-0%{
-transform:translateX(0);
-}
-
-30%{
-transform:translateX(0);
-}
+/* Video */
 
 
-50%{
-transform:translateX(-305px);
-}
-
-
-80%{
-transform:translateX(-610px);
-}
-
-
-100%{
-transform:translateX(0);
-}
-
-}
-
-</style>
-    <style>
-
-.hero{
-
-height:500px;
-color:white;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-
-background-size:cover;
-background-position:center;
-
-animation:heroSlide 15s infinite;
-
-}
-
-
-@keyframes heroSlide{
-
-0%{
-
-background-image:
-linear-gradient(rgba(0,0,0,.5),rgba(230,0,0,.5)),
-url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31");
-
-}
-
-
-33%{
-
-background-image:
-linear-gradient(rgba(0,0,0,.5),rgba(230,0,0,.5)),
-url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3");
-
-}
-
-
-
-66%{
-
-background-image:
-linear-gradient(rgba(0,0,0,.5),rgba(230,0,0,.5)),
-url("https://images.unsplash.com/photo-1544197150-b99a580bb7a8");
-
-}
-
-
-100%{
-
-background-image:
-linear-gradient(rgba(0,0,0,.5),rgba(230,0,0,.5)),
-url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31");
-
-}
-
-}
-
-
-    </style>
-    <section class="section installation">
-
-<h1>Fiber Installation Process</h1>
-
-<p>
-See how our high speed fiber connection is installed at your home
-</p>
-
-<br>
-
-<div class="video-box">
-
-<iframe 
-src="https://www.youtube.com/embed/aqz-KE-bpKQ"
-title="Fiber Installation Video"
-allowfullscreen>
-</iframe>
-
-</div>
-
-</section>
-
-
-<style>
-
-.installation{
-
-background:#f8f8f8;
-
-}
-
-
-.video-box iframe{
+.video iframe{
 
 width:90%;
-max-width:900px;
-height:450px;
-border-radius:25px;
-border:none;
-box-shadow:0 10px 30px #ccc;
+height:400px;
+border-radius:20px;
+border:0;
 
 }
 
+
+
+/* Reviews */
+
+
+.review-box{
+
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+
+.review{
+
+width:280px;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 20px #ddd;
+
+}
+
+
+/* Availability */
+
+
+.availability{
+
+background:#f5f5f5;
+
+}
+
+
+input{
+
+padding:15px;
+border-radius:30px;
+border:1px solid #ccc;
+margin:5px;
+width:250px;
+
+}
+
+
+.check-btn{
+
+background:#e60000;
+color:white;
+padding:15px 30px;
+border:0;
+border-radius:30px;
+
+}
+
+
+/* Footer */
+
+
+footer{
+
+background:#111;
+color:white;
+padding:25px;
+text-align:center;
+
+}
+
+
+/* Mobile */
 
 @media(max-width:600px){
 
-.video-box iframe{
+.hero h1{
+font-size:32px;
+}
 
+.video iframe{
 height:250px;
-
 }
 
 }
 
 </style>
-    <section class="section reviews">
 
-<h1>Customer Reviews</h1>
+</head>
 
-<p>What our customers say</p>
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Airtel Fiber
+</div>
+
+<a class="nav-btn" href="#">
+Book Now
+</a>
+
+</header>
+
+
+<section class="hero">
+
+<div class="fiber-icon">
+📡
+</div>
+
+<h1>
+Superfast Fiber Internet
+</h1>
+
+<p>
+High Speed • Unlimited Data • Smart WiFi
+</p>
+
+<a class="main-btn" href="#">
+Get Connection
+</a>
+
+</section>
+
+
+<section class="section">
+
+<h1>
+Why Choose Fiber?
+</h1>
+
+<div class="features">
+
+<div class="feature-card">
+⚡<br>
+Fast Speed
+</div>
+
+<div class="feature-card">
+📶<br>
+Stable Network
+</div>
+
+<div class="feature-card">
+🎬<br>
+Entertainment
+</div>
+
+<div class="feature-card">
+🛠️<br>
+24×7 Support
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h1>
+Premium Plans
+</h1>
+
+<div class="plans">
+
+<div class="plan">
+<h2>₹499</h2>
+<h3>40 Mbps</h3>
+<p>Unlimited Data<br>WiFi Router<br>Support</p>
+<br>
+<button>Select Plan</button>
+</div>
+
+
+<div class="plan">
+<h2>₹799</h2>
+<h3>100 Mbps</h3>
+<p>OTT Benefits<br>Smart WiFi<br>Fast Speed</p>
+<br>
+<button>Select Plan</button>
+</div>
+
+
+<div class="plan">
+<h2>₹999</h2>
+<h3>200 Mbps</h3>
+<p>Gaming Speed<br>Premium WiFi<br>Support</p>
+<br>
+<button>Select Plan</button>
+</div>
+
+
+</div>
+
+</section><!-- Installation Video -->
+
+<section class="section video">
+
+<h1>Fiber Installation Process</h1>
+
+<p>See how fast fiber connection reaches your home</p>
 
 <br>
 
-<div class="review-container">
+<iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+allowfullscreen>
+</iframe>
+
+</section>
 
 
-<div class="review-card">
 
-<div class="stars">
+<!-- Customer Reviews -->
+
+<section class="section">
+
+<h1>Customer Reviews</h1>
+
+<div class="review-box">
+
+
+<div class="review">
+
 ⭐⭐⭐⭐⭐
-</div>
 
 <p>
-"Excellent speed and quick installation. Internet works smoothly."
+Excellent speed and quick installation.
+Very happy with the service.
 </p>
 
 <h3>- Rahul</h3>
@@ -1190,14 +454,12 @@ height:250px;
 
 
 
-<div class="review-card">
+<div class="review">
 
-<div class="stars">
 ⭐⭐⭐⭐⭐
-</div>
 
 <p>
-"Very good connection quality and great customer support."
+Smooth connection and great support team.
 </p>
 
 <h3>- Anjali</h3>
@@ -1206,15 +468,12 @@ height:250px;
 
 
 
+<div class="review">
 
-<div class="review-card">
-
-<div class="stars">
 ⭐⭐⭐⭐⭐
-</div>
 
 <p>
-"Perfect for work, streaming and gaming."
+Best choice for streaming and work from home.
 </p>
 
 <h3>- Arun</h3>
@@ -1228,140 +487,134 @@ height:250px;
 
 
 
-<style>
 
-.reviews{
-
-background:#fff;
-
-}
+<!-- Availability Check -->
 
 
-.review-container{
-
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-
-}
+<section class="section availability">
 
 
-
-.review-card{
-
-background:white;
-width:280px;
-padding:25px;
-border-radius:20px;
-box-shadow:0 5px 20px #ddd;
-transition:.3s;
-
-}
-
-
-
-.review-card:hover{
-
-transform:translateY(-8px);
-
-}
-
-
-
-.stars{
-
-font-size:25px;
-margin-bottom:15px;
-
-}
-
-
-
-.review-card h3{
-
-color:#e60000;
-margin-top:15px;
-
-}
-
-
-</style>
-    <section class="section availability">
-
-<h1>Check Fiber Availability</h1>
+<h1>
+Check Availability
+</h1>
 
 <p>
-Enter your location to check service availability
+Enter your location to get fiber connection
 </p>
+
 
 <br>
 
-<div class="availability-box">
 
-<input type="text" placeholder="Enter your location">
+<input type="text" placeholder="Enter Location">
+
 
 <input type="tel" placeholder="Mobile Number">
 
-<button>
-Check Availability
+
+<button class="check-btn">
+Check Now
 </button>
 
-</div>
 
 </section>
 
 
 
+
+<!-- Footer -->
+
+<footer>
+
+Premium Fiber Internet Demo
+
+</footer>
+
+
+
+
+<!-- WhatsApp Button -->
+
+
+<a class="whatsapp"
+href="https://wa.me/919876543210?text=Hi%20I%20need%20Fiber%20connection"
+target="_blank">
+
+💬 Book Connection
+
+</a>
+
+
+
 <style>
 
-.availability{
 
-background:#f5f5f5;
+.whatsapp{
 
-}
-
-
-.availability-box{
-
-background:white;
-padding:30px;
-border-radius:20px;
-box-shadow:0 5px 20px #ddd;
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-max-width:800px;
-margin:auto;
-
-}
-
-
-.availability-box input{
-
-padding:15px;
-width:250px;
-border:1px solid #ccc;
-border-radius:30px;
-font-size:16px;
-
-}
-
-
-.availability-box button{
-
-background:#e60000;
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
 color:white;
-border:none;
-padding:15px 30px;
-border-radius:30px;
+padding:15px 22px;
+border-radius:50px;
+text-decoration:none;
 font-weight:bold;
-cursor:pointer;
+z-index:999;
+box-shadow:0 5px 20px #999;
+animation:pulse 2s infinite;
+
+}
+
+
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.1);
+}
+
+100%{
+transform:scale(1);
+}
 
 }
 
 
 
 </style>
-    
+
+
+
+
+<script>
+
+
+// Auto Plan Movement
+
+let plans=document.querySelector(".plans");
+
+setInterval(()=>{
+
+plans.scrollLeft += 300;
+
+
+if(plans.scrollLeft >= plans.scrollWidth-plans.clientWidth){
+
+plans.scrollLeft=0;
+
+}
+
+},3000);
+
+
+
+</script>
+
+
+</body>
+</html>
