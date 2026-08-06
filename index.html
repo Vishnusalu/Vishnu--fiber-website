@@ -1,127 +1,90 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
+<title>Airtel Fiber Premium</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Airtel Fiber | High Speed Internet</title>
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
-
 body{
+    margin:0;
+    font-family:Arial, sans-serif;
     background:#fff;
     color:#222;
 }
 
 header{
-    background:#111;
-    padding:20px 8%;
+    background:#e60000;
+    color:white;
+    padding:20px;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
 .logo{
-    color:#e40000;
     font-size:28px;
     font-weight:bold;
 }
 
-nav a{
+button{
+    background:#e60000;
     color:white;
-    text-decoration:none;
-    margin-left:20px;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
 }
 
 .hero{
-    min-height:80vh;
-    display:flex;
-    align-items:center;
-    padding:50px 8%;
-    background:linear-gradient(135deg,#e40000,#111);
+    background:linear-gradient(120deg,#111,#e60000);
     color:white;
+    text-align:center;
+    padding:60px 20px;
 }
 
 .hero h1{
-    font-size:50px;
+    font-size:40px;
 }
 
-.hero p{
-    font-size:20px;
-    margin:20px 0;
+.animation{
+    font-size:60px;
+    animation:move 2s infinite alternate;
 }
 
-.btn{
-    display:inline-block;
-    background:white;
-    color:#e40000;
-    padding:14px 30px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
+@keyframes move{
+    from{transform:translateY(0);}
+    to{transform:translateY(-20px);}
 }
 
-section{
-    padding:60px 8%;
-}
-
-.title{
+.section{
+    padding:40px 20px;
     text-align:center;
-    font-size:35px;
-    margin-bottom:40px;
 }
 
 .cards{
     display:flex;
-    gap:25px;
+    gap:20px;
     justify-content:center;
     flex-wrap:wrap;
 }
 
 .card{
-    width:300px;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 10px 30px #ddd;
-    text-align:center;
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-10px);
-}
-
-.card h3{
-    color:#e40000;
-    font-size:25px;
-}
-
-.price{
-    font-size:35px;
-    margin:20px;
-    font-weight:bold;
-}
-
-.features{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.feature{
+    width:260px;
     padding:25px;
-    background:#f5f5f5;
+    border-radius:20px;
+    box-shadow:0 5px 20px #ccc;
+    background:white;
+}
+
+.card h2{
+    color:#e60000;
+}
+
+.video iframe{
+    width:90%;
+    height:350px;
     border-radius:15px;
-    width:250px;
-    text-align:center;
 }
 
 footer{
@@ -129,26 +92,6 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
-}
-
-.whatsapp{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#25D366;
-    color:white;
-    padding:15px 20px;
-    border-radius:50px;
-    text-decoration:none;
-}
-
-@media(max-width:700px){
-.hero h1{
-    font-size:35px;
-}
-nav{
-    display:none;
-}
 }
 </style>
 
@@ -158,120 +101,14 @@ nav{
 
 <header>
 <div class="logo">Airtel Fiber</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Plans</a>
-<a href="#">Features</a>
-<a href="#">Contact</a>
-</nav>
+<button>Get Connection</button>
 </header>
 
 
 <section class="hero">
 
-<div>
-<h1>High Speed Internet For Your Digital Life</h1>
+<div class="animation">📡</div>
 
-<p>
-Enjoy ultra-fast fiber broadband with reliable connectivity.
-</p>
+<h1>High Speed Fiber Internet</h1>
 
-<a class="btn" href="#plans">
-View Plans
-</a>
-
-</div>
-
-</section>
-
-
-<section id="plans">
-
-<h2 class="title">Our Fiber Plans</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Basic</h3>
-<div class="price">₹499</div>
-<p>40 Mbps Speed</p>
-<p>Unlimited Data</p>
-</div>
-
-
-<div class="card">
-<h3>Premium</h3>
-<div class="price">₹799</div>
-<p>100 Mbps Speed</p>
-<p>Unlimited Data</p>
-</div>
-
-
-<div class="card">
-<h3>Ultra</h3>
-<div class="price">₹1499</div>
-<p>200 Mbps Speed</p>
-<p>OTT Benefits</p>
-</div>
-
-</div>
-
-</section>
-
-
-<section>
-
-<h2 class="title">Why Choose Us</h2>
-
-<div class="features">
-
-<div class="feature">
-<h3>⚡ Fast Speed</h3>
-<p>High performance fiber network</p>
-</div>
-
-<div class="feature">
-<h3>📡 Reliable</h3>
-<p>Stable internet connection</p>
-</div>
-
-<div class="feature">
-<h3>24/7 Support</h3>
-<p>Always ready to help</p>
-</div>
-
-</div>
-
-</section>
-
-
-<footer>
-<p>© 2026 Airtel Fiber Demo Website</p>
-</footer>
-
-
-<a class="whatsapp" href="#">
-WhatsApp
-</a>
-
-
-</body>
-</html>
-<section>
-<h2>Demo Video</h2>
-
-<iframe width="100%" height="300"
-src="https://www.youtube.com/embed/VIDEO_ID"
-allowfullscreen>
-</iframe>
-
-</section>
-<div class="browser-box">
-<input type="text" placeholder="Search Airtel Fiber Plans">
-<button>Search</button>
-</div>
-<div class="browser-box">
-<input type="text" placeholder="Search Airtel Fiber Plans">
-<button>Search</button>
-</div> browsers 
+<p>Fast
